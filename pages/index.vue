@@ -35,6 +35,7 @@
     <b-row>
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
+          <h6 class="h6">I`m Looking For ...</h6>
           <b-form-select-option>
             <select>
               <option value="">Product Type</option>
@@ -105,5 +106,8 @@
     .left{
       font-style: oblique;
       font-size: smaller ;
+    }
+    .h6{
+      font-style: italic;
     }
 </style>
