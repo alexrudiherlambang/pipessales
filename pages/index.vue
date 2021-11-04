@@ -1,5 +1,7 @@
 <template>
-  <b-container fluid="md" class="mt-5 mb-5">
+<div class="mt-5 mb-5">
+<img src="1.png">
+  <b-container fluid="md" class="mt-3 mb-5">
     <b-row>
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
@@ -11,6 +13,7 @@
       </b-col>
     </b-row>
   </b-container>
+</div>
 </template>
 
 <script>
