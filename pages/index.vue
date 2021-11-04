@@ -37,22 +37,28 @@
         <b-card class="shadow-md border-0 rounded-lg">
           <h6 class="h6">I`m Looking For ...</h6>
           <b-form-select-option>
-            <select>
+            <b-button variant="outline-warning">
+              <select>
               <option value="">Product Type</option>
-            </select>
-            <select>
+              </select>
+            </b-button>
+            <b-button variant="outline-warning">
+              <select>
               <option value="">Grade</option>
-             </select>
-            <select>
+              </select>
+            </b-button><b-button variant="outline-warning">
+              <select>
               <option value="">Size</option>
-            </select>
-            <select>
+              </select>
+            </b-button><b-button variant="outline-warning">
+              <select>
               <option value="">Connection</option>
-            </select>
+              </select>
+            </b-button>
+            <b-button variant="success">Find</b-button>
           </b-form-select-option>
           <hr>
           <h5>OUR PRODUCT</h5>
-          <b-button :to="{name: 'post-create'}" variant="primary" class="mb-3">TAMBAH</b-button>
           <b-table striped bordered hover :items="items" :fields="fields" show-empty></b-table>
         </b-card>
       </b-col>
@@ -68,7 +74,7 @@
     data() {
       return {
         //header table  
-        fields: ['title', 'content', 'actions'],
+        fields: ['No', 'Product Type', 'Grade', 'Size', 'Connectiion', 'Action'],
         //posts data
         posts: [],
       }
