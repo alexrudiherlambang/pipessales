@@ -36,36 +36,30 @@
     <Nuxt />
 
 <div class="mt-5 mb-5">
-<img src="1.png" style="display:block; margin-left:auto; margin-right:auto">
   <b-container fluid="md" class="mt-2 mb-5">
     <b-row>
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
-          <h6 class="h6">I`m Looking For ...</h6>
-          <b-form-select-option class="option_button">
-            <b-button variant="outline-warning">
-              <select class="ob">
-              <option value="">Product Type</option>
-              </select>
-            </b-button>
-            <b-button variant="outline-warning">
-              <select class="ob">
-              <option value="">Grade</option>
-              </select>
-            </b-button><b-button variant="outline-warning">
-              <select class="ob">
-              <option value="">Size</option>
-              </select>
-            </b-button><b-button variant="outline-warning">
-              <select class="ob">
-              <option value="">Conection</option>
-              </select>
-            </b-button>
-            <b-button variant="success">Find !!!</b-button>
-          </b-form-select-option>
-          <hr>
-          <h5>OUR PRODUCT</h5>
-          <b-table striped bordered hover :items="items" :fields="fields" show-empty></b-table>
+        <div class="row justify-content-md-center">
+            <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Login</div>
+                <div class="card-body">
+                <form>
+                    <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" placeholder="Email..">
+                    </div>
+                    <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" placeholder="Password..">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
         </b-card>
       </b-col>
     </b-row>
@@ -119,26 +113,5 @@
     .left{
       font-style: oblique;
       font-size: smaller ;
-    }
-    .h6{
-      font-style: italic;
-    }
-    .option_button{
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-right: 100px;
-      margin-left: 100px;
-      display: flex;
-      justify-content: space-between;
-      cursor: pointer;
-    }
-    .ob{
-      margin-top: 30px;
-      margin-bottom: 30px;
-      margin-right: 45px;
-      margin-left: 45px;
-      font-size: 15px;
-      border-bottom: 100px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 </style>

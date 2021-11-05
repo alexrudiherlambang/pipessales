@@ -36,35 +36,14 @@
     <Nuxt />
 
 <div class="mt-5 mb-5">
-<img src="1.png" style="display:block; margin-left:auto; margin-right:auto">
+<!-- <img src="1.png" style="display:block; margin-left:auto; margin-right:auto"> -->
   <b-container fluid="md" class="mt-2 mb-5">
     <b-row>
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
-          <h6 class="h6">I`m Looking For ...</h6>
-          <b-form-select-option class="option_button">
-            <b-button variant="outline-warning">
-              <select class="ob">
-              <option value="">Product Type</option>
-              </select>
-            </b-button>
-            <b-button variant="outline-warning">
-              <select class="ob">
-              <option value="">Grade</option>
-              </select>
-            </b-button><b-button variant="outline-warning">
-              <select class="ob">
-              <option value="">Size</option>
-              </select>
-            </b-button><b-button variant="outline-warning">
-              <select class="ob">
-              <option value="">Conection</option>
-              </select>
-            </b-button>
-            <b-button variant="success">Find !!!</b-button>
-          </b-form-select-option>
+          <h5>Sales My Pipes</h5>
           <hr>
-          <h5>OUR PRODUCT</h5>
+          
           <b-table striped bordered hover :items="items" :fields="fields" show-empty></b-table>
         </b-card>
       </b-col>
