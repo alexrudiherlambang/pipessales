@@ -3,7 +3,7 @@
 
     <div>
       <b-navbar toggleable="lg" type="light" variant="light" class="shadow-md" fixed="top">
-        <img src="logo.png">
+        <img src="logo1.png">
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -30,32 +30,32 @@
     <Nuxt />
 
 <div class="mt-5 mb-5">
-<img src="1.png">
+<img src="1.png" style="border-sizing:border-box">
   <b-container fluid="md" class="mt-2 mb-5">
     <b-row>
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
           <h6 class="h6">I`m Looking For ...</h6>
-          <b-form-select-option>
+          <b-form-select-option class="option_button">
             <b-button variant="outline-warning">
-              <select>
+              <select class="ob">
               <option value="">Product Type</option>
               </select>
             </b-button>
             <b-button variant="outline-warning">
-              <select>
+              <select class="ob">
               <option value="">Grade</option>
               </select>
             </b-button><b-button variant="outline-warning">
-              <select>
+              <select class="ob">
               <option value="">Size</option>
               </select>
             </b-button><b-button variant="outline-warning">
-              <select>
+              <select class="ob">
               <option value="">Connection</option>
               </select>
             </b-button>
-            <b-button variant="success">Find</b-button>
+            <b-button variant="success">Find !!!</b-button>
           </b-form-select-option>
           <hr>
           <h5>OUR PRODUCT</h5>
@@ -108,6 +108,7 @@
     }
     .right{
       font-weight: bold ;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .left{
       font-style: oblique;
@@ -115,5 +116,23 @@
     }
     .h6{
       font-style: italic;
+    }
+    .option_button{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-right: 100px;
+      margin-left: 100px;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+    .ob{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-right: 45px;
+      margin-left: 45px;
+      font-size: 15px;
+      border-bottom: 100px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 </style>
