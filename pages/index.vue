@@ -52,7 +52,7 @@
               </select>
             </b-button><b-button variant="outline-warning">
               <select class="ob">
-              <option value="">Connection</option>
+              <option value="">Conection</option>
               </select>
             </b-button>
             <b-button variant="success">Find !!!</b-button>
@@ -74,7 +74,7 @@
     data() {
       return {
         //header table  
-        fields: ['No', 'Product Type', 'Grade', 'Size', 'Connectiion', 'Action'],
+        fields: ['No', 'Product Type', 'Grade', 'Size', 'Conection', 'Action'],
         //posts data
         posts: [],
       }
@@ -133,6 +133,6 @@
       margin-left: 45px;
       font-size: 15px;
       border-bottom: 100px;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 </style>
