@@ -10,16 +10,19 @@
     <b-row>
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
-          <h5 class="h5">Wishlist</h5>
-          <hr>
-          <h6 style="font-weight:bold">Connecting you with a sustainable approach</h6>
-          <a>Both Buyers and Sellers benefit from Pipesales’ sustainable approach. Sellers can unlock capital by turning excess tubular products into revenue whilst removing storage and maintenance costs linked to holding surplus stock. By utilising ready-made tubular products, buyers can reduce their carbon footprint associated with new tubular production.</a><br><br>
-          <h6 style="font-weight:bold">Just-in-time supply</h6>
-          <a>Pipesales marketplace removes the friction of buying and selling tubular products. We help organisations target zero inventory through fast access to stock and offloading excess inventory.</a><br><br>
-          <h6 style="font-weight:bold">A globally supported network</h6>
-          <a>Pipesales order fulfilment is backed by Marubeni-Itochu Steel Inc (MISI). MISI has group offices and subsidiaries (92) located in North America, South America, Europe, the Middle East and Asia/Oceania. MISI's global tubular products subsidiaries utilise Total Tubular Management (TTM) as an integrated management service and provide inventory processing, inspection and maintenance functions alleviating customers from time-consuming administration tasks and supply chain risk.</a><br><br>
-          <h6 style="font-weight:bold">Safe Transactions</h6>
-          <a>Pipesales connects buyers and sellers with a local MISI tubular subsidiary, and transactions are processed locally, guaranteeing peace of mind.</a><br><br>     </b-card>
+          <h6 style="font-weight:bold">Wishlist 1</h6>
+          <a>I Hope.....</a><br><br>
+          <h6 style="font-weight:bold">Wishlist 2</h6>
+          <a>I Hope.....</a><br><br>
+          <h6 style="font-weight:bold">Wishlist 3</h6>
+          <a>I Hope.....</a><br><br>
+          <h6 style="font-weight:bold">Wishlist 4</h6>
+          <a>I Hope.....</a><br><br>
+          <h6 style="font-weight:bold">Wishlist 5</h6>
+          <a>I Hope.....</a><br><br>
+          <h6 style="font-weight:bold">Wishlist 6</h6>
+          <a>I Hope.....</a><br><br>
+        </b-card>
       </b-col>
     </b-row>
   </b-container>
