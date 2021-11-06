@@ -1,38 +1,7 @@
 <template>
 <div>
 
-    <div>
-      <b-navbar toggleable="lg" type="light" variant="light" class="shadow-md" fixed="top">
-        
-
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav>
-            <b-nav-item>
-                <img src="logo1.png" height="55">
-            </b-nav-item>
-            <b-nav-item class="right" href="login">
-                <img src="key.png" height="30"><br>Login
-            </b-nav-item>
-            <b-nav-item class="right" href="register">
-                <img src="add.png" height="30"><br>Sign Up
-            </b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
-        <b-button pill variant="outline-secondary" href="about">About Pipessales</b-button>
-        <b-navbar-nav>
-            <b-nav-item></b-nav-item>
-        </b-navbar-nav>
-        <b-button pill variant="primary" href="sales">Sales My Pipes</b-button>
-        <b-navbar-nav>
-            <b-nav-item class="left" href="wishlist"><img src="love.png" height="20"><br>Wishlist</b-nav-item>
-            <b-nav-item class="left" href="enquiry"><img src="cart.png" height="20"><br>My Enquiry</b-nav-item>
-            <b-nav-item class="left" href="compare"><img src="scale.png" height="20"><br>Compare</b-nav-item>
-          </b-navbar-nav>
-      </b-navbar>
-    </div>
-
+    <Header />
     <Nuxt />
 
 <div class="mt-5 mb-5">
@@ -41,7 +10,7 @@
     <b-row>
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
-          <h5>Wistlist</h5>
+          <h5 class="h5">Wishlist</h5>
           <hr>
           <h6 style="font-weight:bold">Connecting you with a sustainable approach</h6>
           <a>Both Buyers and Sellers benefit from Pipesales’ sustainable approach. Sellers can unlock capital by turning excess tubular products into revenue whilst removing storage and maintenance costs linked to holding surplus stock. By utilising ready-made tubular products, buyers can reduce their carbon footprint associated with new tubular production.</a><br><br>
@@ -124,5 +93,10 @@
       font-size: 15px;
       border-bottom: 100px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .h5{
+      font-size: 30px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
     }
 </style>

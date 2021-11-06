@@ -1,37 +1,7 @@
 <template>
 <div>
 
-    <div>
-      <b-navbar toggleable="lg" type="light" variant="light" class="shadow-md" fixed="top">
-        
-
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav>
-            <b-nav-item>
-                <img src="logo1.png" height="55">
-            </b-nav-item>
-            <b-nav-item class="right" href="login">
-                <img src="key.png" height="30"><br>Login
-            </b-nav-item>
-            <b-nav-item class="right" href="register">
-                <img src="add.png" height="30"><br>Sign Up
-            </b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
-        <b-button pill variant="outline-secondary" href="about">About Pipessales</b-button>
-        <b-navbar-nav>
-            <b-nav-item></b-nav-item>
-        </b-navbar-nav>
-        <b-button pill variant="primary" href="sales">Sales My Pipes</b-button>
-        <b-navbar-nav>
-            <b-nav-item class="left" href="wishlist"><img src="love.png" height="20"><br>Wishlist</b-nav-item>
-            <b-nav-item class="left" href="enquiry"><img src="cart.png" height="20"><br>My Enquiry</b-nav-item>
-            <b-nav-item class="left" href="compare"><img src="scale.png" height="20"><br>Compare</b-nav-item>
-          </b-navbar-nav>
-      </b-navbar>
-    </div>
+    <Header />
 
     <Nuxt />
 
@@ -41,7 +11,7 @@
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
         <div class="row justify-content-md-center">
-            <div class="row justify-content-md-center">
+            <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">Sign Up
                     </div>
@@ -118,5 +88,10 @@
     .left{
       font-style: oblique;
       font-size: smaller ;
+    }
+    .card-header{
+      font-size: 30px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
     }
 </style>
